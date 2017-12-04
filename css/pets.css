@@ -1,0 +1,102 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+	font-family:      "Tahoma";
+	src:              url(../fonts/9688.ttf),
+	                  url(../fonts/9688.woff);
+    font-family:      "Roboto Regular";
+	src:              url(../fonts/3966.ttf),
+	                  url(../fonts/3966.woff);
+}
+	
+body {
+	background-image: url(../images/fon.png);
+	font-family:      Tahoma;
+	font-size:        small;
+}
+.dog {
+	margin:           0px auto;		
+	width:            890px;
+	height:           550px;
+	background-color: #f2cc87;
+}
+.cat {
+	background-image: url(../images/house.png);
+	background-repeat: no-repeat;
+	position:         relative;
+	margin:           0px auto;
+	width:            880px;
+	height:           550px;
+	background-color: white;
+}
+
+.parrot {
+	border-style:     solid;
+	border-width:     medium;
+	border-top:       none;
+	border-radius:    0px 0px 20px 20px;
+	border-color:     #af6900;
+	background:       linear-gradient( 
+                      #f4d69e 50%, 
+                      transparent 50%);
+	background-size:  3px 3px;
+    background-color: #f2cc87;
+	width:            225px;
+	height:           40px;
+	position:         absolute;
+	right:            20px;
+}
+.parrot p {
+	padding:          10px 35px 10px 42px;
+}
+
+
+.animal {
+	display:          inline-block;
+	border-style:     solid;
+	border-width:     3px;
+	border-radius:    15px;
+	border-color:     #417233;
+	background:       linear-gradient( 
+                      #ff9900 50%, 
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #ffba53;
+    margin:           4px 8px;
+	padding:          12px;
+	width:            110px;
+	height:           50px;
+	text-align:       center;
+	color:            white;
+	font-size:        15px;
+
+}
+nav {
+	border-style:     solid;
+	border-width:     thin;
+	border-color:     #a3b39c;
+	border-radius:    20px 20px 0px 0px;
+	width:            650px;
+	height:           60px;
+    position:         absolute;
+	top:              140px;
+	right:            3px;
+	background-color: #ffedca;
+	}
+nav ul {
+
+}
+nav ul li {
+    list-style-type:  none;
+}
+#pets-suplies {
+	position:         absolute;
+	top:              40px;
+	left:             -10px;
+}
+	
+
+	
