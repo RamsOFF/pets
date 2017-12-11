@@ -10,30 +10,31 @@
     font-family:      "Roboto Regular";
 	src:              url(../fonts/3966.ttf),
 	                  url(../fonts/3966.woff);
-}
-	
+}	
 body {
 	background-image: url(../images/fon.png);
 	font-family:      Tahoma;
 	font-size:        small;
 }
-.dog {
+.first_lay {
 	margin:           0px auto;		
 	width:            890px;
-	height:           600px;
+	height:           670px;
 	background-color: #f2cc87;
 }
-.cat {
+.second_lay {
 	background-image: url(../images/house.png);
 	background-repeat: no-repeat;
 	position:         relative;
 	margin:           0px auto;
 	width:            880px;
-	height:           600px;
+	height:           670px;
 	background-color: white;
 }
-
-.parrot {
+.header {
+	height:           203px;
+}
+.nav_top {
 	border-style:     solid;
 	border-width:     medium;
 	border-top:       none;
@@ -44,17 +45,43 @@ body {
                       transparent 50%);
 	background-size:  3px 3px;
     background-color: #f2cc87;
-	width:            225px;
+	width:            160px;
 	height:           40px;
 	position:         absolute;
-	right:            20px;
+	right:            10px;
+	font-size:        10px;
 }
-.parrot p {
-	padding:          10px 35px 10px 42px;
+.nav_top p {
+	padding:          14px 20px 0px 20px;
+	}
+.nav_top a {
+    text-decoration:  none;
+	color:            black;
 }
-
-
-.animal {
+.bt_hm_hlp {
+	border-style:     solid;
+	border-width:     0px 2px 0px 0px;
+	border-color:     #ba8d5b;
+	padding:          6px 10px 4px 5px;
+	height:           25px;
+}
+.bt_lgn {
+	margin-left:     5px;
+}
+.navigation {
+    display:          block;
+	border-radius:    20px 20px 0px 0px;
+	width:            668px;
+	height:           60px;
+	background-color: #ffedca;
+	float:            right;
+	margin-right:     2px;
+	margin-top:       -13px;    
+}
+nav ul li {
+    list-style-type:  none;
+}
+.navigation_bt {
 	display:          inline-block;
 	border-style:     solid;
 	border-width:     3px;
@@ -65,38 +92,76 @@ body {
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
-    margin:           4px 8px;
-	padding:          12px;
-	width:            110px;
+    margin:           4px 8px 0px 8px;
+	padding:          0px;
+	width:            112px;
 	height:           50px;
 	text-align:       center;
 	color:            white;
+	font-family:      Roboto Regular;
 	font-size:        15px;
 
 }
-nav {
-	border-style:     solid;
-	border-width:     thin;
-	border-color:     #a3b39c;
-	border-radius:    20px 20px 0px 0px;
-	width:            650px;
-	height:           60px;
-    position:         absolute;
-	top:              140px;
-	right:            3px;
-	background-color: #ffedca;
+.bt_ico_dog {
+	position:          relative;
+	top:               -30px;
+	left:              35px;
+}
+.bt_ico_text_dog {
+	position:         relative;
+	margin-right:     37px;
+	bottom:           10px;
+}
+.bt_ico_cat {
+	position:         relative;
+	top:              -32px;
+	left:             10px;
+}
+.bt_ico_text_cat {
+	position:         relative;
+	right:            15px;
+	bottom:           15px;
+	
+}
+.bt_ico_bird {
+	position:         relative;
+	top:              -40px;
+	right:             5px;
+}
+.bt_ico_text_bird{
+	position:         relative;
+	right:            35px;
+	bottom:           23px;
+}
+.bt_ico_fish {
+	position:         relative;
+	top:              -33px;
+	left:             14px;
+}
+.bt_ico_text_fish {
+	position:         relative;
+	right:            35px;
+	bottom:           25px;
+}
+.bt_ico_reptile{
+	position:         relative;
+	top:              -33px;
+	left:             14px;
+	
+}
+.bt_ico_text_reptile{
+    position:         relative;
+	right:            35px;
+	bottom:           5px;
 	}
-nav ul {
-
-}
-nav ul li {
-    list-style-type:  none;
-}
-#pets-suplies {
-	position:         absolute;
+.logo {
+	position:         relative;
+	left:             -14px;
 	top:              40px;
-	left:             -10px;
+}	
+.blocks {
+	width:            875px;
+	height:           467px;
+	margin:           0px auto;
+	background-color: #ffecd8;
 }
-	
-
-	
