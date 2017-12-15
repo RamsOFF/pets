@@ -16,20 +16,18 @@ body {
 	font-family:      Tahoma;
 	font-size:        small;
 }
-.first_lay {
-	margin:           0px auto;		
-	width:            890px;
-	height:           670px;
-	background-color: #f2cc87;
-}
-.second_lay {
+.container {
+	border:           solid #f2cc87;  
+    border-width:     0px 5px;	
 	background-image: url(../images/house.png);
+	background-color: white;
 	background-repeat: no-repeat;
 	position:         relative;
-	margin:           0px auto;
-	width:            880px;
+	margin:           0px auto;		
+	width:            888px;
 	height:           670px;
-	background-color: white;
+
+	
 }
 .header {
 	height:           203px;
@@ -45,7 +43,7 @@ body {
                       transparent 50%);
 	background-size:  3px 3px;
     background-color: #f2cc87;
-	width:            160px;
+	width:            172px;
 	height:           40px;
 	position:         absolute;
 	right:            10px;
@@ -58,15 +56,20 @@ body {
     text-decoration:  none;
 	color:            black;
 }
-.bt_hm_hlp {
+.nav_top_bt {            
 	border-style:     solid;
 	border-width:     0px 2px 0px 0px;
 	border-color:     #ba8d5b;
 	padding:          6px 10px 4px 5px;
 	height:           25px;
 }
-.bt_lgn {
-	margin-left:     5px;
+.nav_top_bt:last-child {
+	border: none;
+}
+.logo {
+	position:         relative;
+	left:             -14px;
+	top:              40px;
 }
 .navigation {
     display:          block;
@@ -75,13 +78,14 @@ body {
 	height:           60px;
 	background-color: #ffedca;
 	float:            right;
-	margin-right:     2px;
-	margin-top:       -13px;    
+	margin-right:     3px;
+	margin-top:       -13px;   
+    padding:          0px;	
 }
 nav ul li {
     list-style-type:  none;
 }
-.navigation_bt {
+.navigation_link {
 	display:          inline-block;
 	border-style:     solid;
 	border-width:     3px;
@@ -92,72 +96,61 @@ nav ul li {
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
-    margin:           4px 8px 0px 8px;
-	padding:          0px;
+    margin:           4px 8px;
 	width:            112px;
 	height:           50px;
 	text-align:       center;
 	color:            white;
 	font-family:      Roboto Regular;
 	font-size:        15px;
+	position:         relative;
+}
+.navigation_btn {
+	
+}
+.navigation_icon_dog {
+	background:       url("../ico/sprite.png") no-repeat 0 0;
+	width:            35px;
+	height:           39px;
+	position:         absolute;	
+}
+.bt_icon_text_dog {
+}
+.navigation_icon_cat {
+	background:       url('../ico/sprite.png') no-repeat -40px 0;
+	width:            25px;
+	height:           47px;
+	position:         absolute;
+}
+.bt_icon_text_cat {
+
+	
+}
+.navigation_icon_fish {
+	background:       url('../ico/sprite.png') no-repeat -70px 0;
+	width:            69px;
+	height:           58px;
+	position:         absolute;
+}
+.bt_icon_text_fish {
 
 }
-.bt_ico_dog {
-	position:          relative;
-	top:               -30px;
-	left:              35px;
+.navigation_icon_bird {
+	background:       url('../ico/sprite.png') no-repeat -145px 0;
+	width:            70px;
+	height:           55px;
+	position:         absolute;
 }
-.bt_ico_text_dog {
-	position:         relative;
-	margin-right:     37px;
-	bottom:           10px;
+.bt_icon_text_bird {
 }
-.bt_ico_cat {
-	position:         relative;
-	top:              -32px;
-	left:             10px;
+.navigation_icon_reptile {
+	background:       url('../ico/sprite.png') no-repeat -220px 0;
+	width:            59px;
+	height:           30px;
+	position:         absolute;
 }
-.bt_ico_text_cat {
-	position:         relative;
-	right:            15px;
-	bottom:           15px;
-	
-}
-.bt_ico_bird {
-	position:         relative;
-	top:              -40px;
-	right:             5px;
-}
-.bt_ico_text_bird{
-	position:         relative;
-	right:            35px;
-	bottom:           23px;
-}
-.bt_ico_fish {
-	position:         relative;
-	top:              -33px;
-	left:             14px;
-}
-.bt_ico_text_fish {
-	position:         relative;
-	right:            35px;
-	bottom:           25px;
-}
-.bt_ico_reptile{
-	position:         relative;
-	top:              -33px;
-	left:             14px;
-	
-}
-.bt_ico_text_reptile{
-    position:         relative;
-	right:            35px;
-	bottom:           5px;
-	}
-.logo {
-	position:         relative;
-	left:             -14px;
-	top:              40px;
+.bt_icon_text_reptile {
+
 }	
 .blocks {
 	width:            875px;
