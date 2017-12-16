@@ -32,12 +32,13 @@ body {
 .header {
 	height:           203px;
 }
-.nav_top {
+.navigation_top {      
 	border-style:     solid;
 	border-width:     medium;
 	border-top:       none;
 	border-radius:    0px 0px 20px 20px;
 	border-color:     #af6900;
+	box-shadow:       10 10 10px rgba(0,0,0,5);
 	background:       linear-gradient( 
                       #f4d69e 50%, 
                       transparent 50%);
@@ -48,23 +49,29 @@ body {
 	position:         absolute;
 	right:            10px;
 	font-size:        10px;
+    -webkit-box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
+    box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
 }
-.nav_top p {
-	padding:          14px 20px 0px 20px;
-	}
-.nav_top a {
-    text-decoration:  none;
-	color:            black;
+.nav_top {
+	margin:           5px 0px 0px 12px;
 }
-.nav_top_bt {            
+.nav_top_btn {
+	display:          inline-block;
+	list-style-type:  none;
 	border-style:     solid;
 	border-width:     0px 2px 0px 0px;
 	border-color:     #ba8d5b;
-	padding:          6px 10px 4px 5px;
+	padding:          7px 10px 0px 10px;
 	height:           25px;
+
 }
-.nav_top_bt:last-child {
+.nav_top_btn:last-child {
 	border: none;
+}
+.nav_top_link {
+	color:            black;
+    text-decoration:  none;
 }
 .logo {
 	position:         relative;
@@ -82,11 +89,9 @@ body {
 	margin-top:       -13px;   
     padding:          0px;	
 }
-nav ul li {
+.navigation_btn {
     list-style-type:  none;
-}
-.navigation_link {
-	display:          inline-block;
+    display:          inline-block;
 	border-style:     solid;
 	border-width:     3px;
 	border-radius:    15px;
@@ -96,7 +101,7 @@ nav ul li {
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
-    margin:           4px 8px;
+	margin:           4px 8px;
 	width:            112px;
 	height:           50px;
 	text-align:       center;
@@ -105,53 +110,76 @@ nav ul li {
 	font-size:        15px;
 	position:         relative;
 }
-.navigation_btn {
-	
+.navigation_btn:after {
+	content:          '';
+	height:           8px;
+	position:         absolute;
+	bottom:           -4px;
+	left:             20px;
+	right:            20px;
+	display:          block;
+	z-index:          2;
+	background-color: #4fa32a;
+	border-radius:    2px;
 }
-.navigation_icon_dog {
+.navigation_link {
+    color:            white;
+}
+.navigation_btn_text{
+	position:         absolute;
+	left:             42px;
+	top:              20px;
+}
+.navigation_btn_text.reptile {
+	position:         absolute;
+	left:             32px;
+	top:              20px;
+}
+.navigation_icon.dog {
 	background:       url("../ico/sprite.png") no-repeat 0 0;
 	width:            35px;
 	height:           39px;
 	position:         absolute;	
+	bottom:           32px;
+	left:             40px;
 }
-.bt_icon_text_dog {
-}
-.navigation_icon_cat {
+.navigation_icon.cat {
 	background:       url('../ico/sprite.png') no-repeat -40px 0;
 	width:            25px;
 	height:           47px;
 	position:         absolute;
+	left:             40px;
+	bottom:           30px;
 }
-.bt_icon_text_cat {
-
-	
-}
-.navigation_icon_fish {
-	background:       url('../ico/sprite.png') no-repeat -70px 0;
-	width:            69px;
-	height:           58px;
-	position:         absolute;
-}
-.bt_icon_text_fish {
-
-}
-.navigation_icon_bird {
+.navigation_icon.bird {
 	background:       url('../ico/sprite.png') no-repeat -145px 0;
 	width:            70px;
 	height:           55px;
 	position:         absolute;
+	left:             5px;
+	bottom:           28px;
 }
-.bt_icon_text_bird {
+.navigation_icon.fish {
+	background:       url('../ico/sprite.png') no-repeat -70px 0;
+	width:            69px;
+	height:           58px;
+	position:         absolute;
+	left:             22px;
+	bottom:           20px;
 }
-.navigation_icon_reptile {
+.navigation_icon.reptile {
 	background:       url('../ico/sprite.png') no-repeat -220px 0;
 	width:            59px;
 	height:           30px;
 	position:         absolute;
-}
-.bt_icon_text_reptile {
-
+	left:             28px;
+	bottom:           22px;
 }	
+.navigation_btn_text_reptle {
+	position:         absolute;
+	left:             32px;
+	top:              20px;
+}
 .blocks {
 	width:            875px;
 	height:           467px;
