@@ -26,8 +26,9 @@ body {
 	margin:           0px auto;		
 	width:            888px;
 	height:           670px;
-
-	
+    -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
+    box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
 }
 .header {
 	height:           203px;
@@ -75,19 +76,22 @@ body {
 }
 .logo {
 	position:         relative;
-	left:             -14px;
+	left:             -20px;
 	top:              40px;
 }
 .navigation {
     display:          block;
 	border-radius:    20px 20px 0px 0px;
-	width:            668px;
+	width:            676px;
 	height:           60px;
 	background-color: #ffedca;
 	float:            right;
 	margin-right:     3px;
-	margin-top:       -13px;   
-    padding:          0px;	
+	margin-top:       -34px;   
+    padding-left:     10px;	
+	-webkit-box-shadow: 0px -10px 40px -13px rgba(0,0,0,0.58);
+    -moz-box-shadow:  0px -10px 40px -13px rgba(0,0,0,0.58);
+    box-shadow:       0px -10px 40px -13px rgba(0,0,0,0.58);
 }
 .navigation_btn {
     list-style-type:  none;
@@ -109,6 +113,10 @@ body {
 	font-family:      Roboto Regular;
 	font-size:        15px;
 	position:         relative;
+    -webkit-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+	
 }
 .navigation_btn:after {
 	content:          '';
@@ -120,7 +128,10 @@ body {
 	display:          block;
 	z-index:          2;
 	background-color: #4fa32a;
-	border-radius:    2px;
+	border-radius:    3px;
+    -webkit-box-shadow: 0px -1px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow:  0px -1px 10px 0px rgba(0,0,0,1);
+    box-shadow:       0px -1px 10px 0px rgba(0,0,0,1);
 }
 .navigation_link {
     color:            white;
@@ -134,6 +145,11 @@ body {
 	position:         absolute;
 	left:             32px;
 	top:              20px;
+}
+.navigation_icon {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
+box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
 }
 .navigation_icon.dog {
 	background:       url("../ico/sprite.png") no-repeat 0 0;
