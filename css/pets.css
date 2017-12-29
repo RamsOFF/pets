@@ -74,32 +74,36 @@ body {
 	color:            black;
     text-decoration:  none;
 }
+.nav_top_link:hover {
+	color:            white;
+}
+
 .logo {
 	position:         relative;
 	left:             -20px;
 	top:              40px;
 }
+
 .navigation {
     display:          block;
+	border:           solid #c1b3a3 1px;
+	border-bottom:    0px;
 	border-radius:    20px 20px 0px 0px;
 	width:            676px;
 	height:           60px;
 	background-color: #ffedca;
 	float:            right;
-	margin-right:     3px;
+	margin-right:     2px;
 	margin-top:       -34px;   
     padding-left:     10px;	
-	-webkit-box-shadow: 0px -10px 40px -13px rgba(0,0,0,0.58);
-    -moz-box-shadow:  0px -10px 40px -13px rgba(0,0,0,0.58);
-    box-shadow:       0px -10px 40px -13px rgba(0,0,0,0.58);
+	
 }
 .navigation_btn {
+	position:         relative;
     list-style-type:  none;
     display:          inline-block;
-	border-style:     solid;
-	border-width:     3px;
+	border:           solid 3px #417233;
 	border-radius:    15px;
-	border-color:     #417233;
 	background:       linear-gradient( 
                       #ff9900 50%, 
                       transparent 50%);
@@ -112,10 +116,9 @@ body {
 	color:            white;
 	font-family:      Roboto Regular;
 	font-size:        15px;
-	position:         relative;
     -webkit-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
-    -moz-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
-    box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow:  inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    box-shadow:       inset -6px -6px 10px -4px rgba(0,0,0,0.58);
 	
 }
 .navigation_btn:after {
@@ -134,22 +137,20 @@ body {
     box-shadow:       0px -1px 10px 0px rgba(0,0,0,1);
 }
 .navigation_link {
-    color:            white;
+	display:         block;
+	padding:         15px 65px 30px 42px;  
+    color:           white;
+}
+.navigation_link:hover {
+	color:           black;
 }
 .navigation_btn_text{
 	position:         absolute;
-	left:             42px;
-	top:              20px;
 }
 .navigation_btn_text.reptile {
 	position:         absolute;
 	left:             32px;
-	top:              20px;
-}
-.navigation_icon {
-	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
--moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
-box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
+	top:              14px;
 }
 .navigation_icon.dog {
 	background:       url("../ico/sprite.png") no-repeat 0 0;
@@ -189,16 +190,257 @@ box-shadow: 0px 5px 5px -5px rgba(0,0,0,1);
 	height:           30px;
 	position:         absolute;
 	left:             28px;
-	bottom:           22px;
+	top:              -15px;
 }	
-.navigation_btn_text_reptle {
-	position:         absolute;
-	left:             32px;
-	top:              20px;
-}
+
 .blocks {
+	border:           solid #c1b3a3 1px;
 	width:            875px;
 	height:           467px;
 	margin:           0px auto;
 	background-color: #ffecd8;
+	padding-top:      15px;
+	padding-left:     8px;
+	clear:            both;
+}
+.left_column_blocks {
+	display:          block;
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px;
+	width:            202px;
+	height:           248;
+	float:            left;
+	margin:           0px 5px 2px 0px;
+}
+.left_column_blocks.bottom {
+	height:           191px;
+}
+.left_column_caption {
+	text-align:       right;
+	background:       linear-gradient( 
+                      #49b149 50%, 
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #63bc63;
+	border-radius:    15px 15px 0px 0px;
+	padding-right:    15px;
+	font-size:        11px;
+	color:            white;
+}
+.left_column_icon {
+	position:        absolute;
+	left:            25px;
+	top:             -7px;
+}
+.blocks_link {
+	text-decoration: none;
+	color:           #e08d39;
+}
+.blocks_link.left_column{
+	color:           #ff3300;
+}
+.caption {
+	margin-top:       5px;
+}
+
+.left_column_block {
+	display:          block;
+	border-radius:    15px 15px 0px 0px;
+	background-color: #f2cc87;    
+	width:            200px;
+	height:           124px;
+	font-size:        77%;	
+	position:         relative;
+	float:            left;
+}
+.left_column_icon.pet_icon {
+	background:      url("../ico/sprite.png") no-repeat -289px -1px;
+	width:           28px;
+	height:          28px;
+}
+.pet_of_the_month_img {
+	float:            left;	
+	margin:           10px 15px 0px 12px;
+}
+
+.left_column_block.info_block {
+	border-radius:    0px 0px 15px 15px;
+}
+.left_column_caption.info_caption {
+	border-radius:    0px;
+}
+.left_column_icon.info_icon{
+	background:      url('../ico/sprite.png') no-repeat -330px -3px;
+	width:           26px;
+	height:          26px;
+}
+.information_img {
+	float:            left;
+}
+.information_img.labrador {
+	margin:           10px 15px 0px 20px;
+}
+.information_img.sobaken {
+	clear:            left;
+	margin:           0px 15px 0px 4px;
+}
+
+.left_column_block.issues_block {
+	height:           75px;
+}
+.left_column_caption.issues_caption {
+	text-align:       center;
+}
+.left_column_icon.isses_icon{
+	background:       url('../ico/sprite.png') no-repeat -372px -3px;
+	width:            26px;
+	height:           26px;
+}
+.issues_img.mouse {
+	float:            left;
+	margin:           10px 10px 0px 5px;
+}
+
+.left_column_block.loren_block {
+	border-top:       solid #c1b3a3 1px;
+    height:           50px;
+	border-radius:    0px;
+}
+.lorem_img {
+	float:            left;
+	margin:           10px 5px 0px 5px;
+}
+
+.left_column_block.enim_block {
+	border-top:       solid #c1b3a3 1px;
+    height:           65px;
+	border-radius:    0px 0px 15px 15px;
+}
+.enim_img {
+	float:            left;
+	margin:           5px;
+}
+
+.center_column_blocks {
+	display:          block;
+	background-color: #ffedca;    
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px 15px 15px 15px;
+	width:            320px;
+	height:           116px;
+	font-size:        77%;	
+	position:         relative;
+	float:            left;
+	margin:           0px 5px 5px 5px
+}
+.center_column_blocks_bottom {
+	display:          block;   
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px;
+	width:            320px;
+	height:           300px;
+	float:            left;
+	clear:            none;
+	margin:           0px;
+	padding:          0px;
+}
+.center_column_caption  {
+	border-radius:    15px 15px 0px 0px;
+	background-color: #e08d39;
+	color:            white;
+	font-size:        11px;
+	padding-left:     40px;
+}
+.center_img_family {
+	float:            left;
+	margin:           7px 10px 10px 5px;
+}
+
+.search {
+	display:          block;
+	border:           solid 1px #c1b3a3;
+	border-radius:    12px;
+	height:           32px;
+	background-color: #ffedca; 
+	width:            312px;
+	float:            left;
+	margin:           0px 0px 5px 5px;
+	padding:          5px;
+	color:            #595959;
+}
+.search_text {
+	margin:           2px 15px 0px 15px;
+	float:            left;
+}
+.input {
+	border:           solid 1px #edbc8b;
+}
+.search_button {
+	border:           solid 2px #fdebc8;
+	border-radius:    9px;
+	background:       linear-gradient( 
+                      #ff9900 50%, 
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #ffba53;
+	width:            55px;
+	color:            #595959;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:  0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow:       0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.right_column_blocks {
+	display:          block;
+	background-color: #ffedca;    
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px 15px 15px 15px;
+	width:            312px;
+	height:           79px;
+	font-size:        77%;	
+	position:         relative;
+	float:            left;
+	margin:           0px 0px 5px 5px;
+}
+.right_column_caption {
+	border-radius:    15px 15px 0px 0px;
+	background-color: #e08d39;
+	color:            white;
+	font-size:        11px;
+	padding-left:     20px;
+}
+.right_img_box {
+	position:         absolute;
+	right:            5px;
+	bottom:           10px;
+}
+
+
+.center_column_blocks.royal_block {
+	border-width:     0px;
+	margin:           0px;
+	width:            318px;
+	height:           125px;
+}
+.center_column_img.royal {
+	position:         absolute;
+	left:             138px;
+	top:              -2px;
+}
+.center_column_blocks.botles_block{
+	margin:           0px;
+	border-width:     1px 0px;
+	width:            318px;
+	border-radius:    0px;
+}
+.center_column_img.botles_img {
+	float:            left;
+}
+.center_column_img.star_img {
+	position:         absolute;
+}
+
+.right_column_blocks.clubs_block {
+	height:           126px;
+	margin-top:       3px;
 }
