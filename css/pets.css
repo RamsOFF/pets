@@ -25,10 +25,10 @@ body {
 	position:         relative;
 	margin:           0px auto;		
 	width:            888px;
-	height:           670px;
+	height:           742px;
     -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
-    -moz-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
-    box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
+    -moz-box-shadow:  -1px 5px 38px -3px rgba(0,0,0,1);
+    box-shadow:       -1px 5px 38px -3px rgba(0,0,0,1);
 }
 .header {
 	height:           203px;
@@ -195,22 +195,40 @@ body {
 
 .blocks {
 	border:           solid #c1b3a3 1px;
+	border-bottom:    0px;
 	width:            875px;
-	height:           467px;
+	height:           488px;
 	margin:           0px auto;
 	background-color: #ffecd8;
-	padding-top:      15px;
-	padding-left:     8px;
 	clear:            both;
 }
+.left_column {
+	float:            left;
+	width:            222px;
+	height:           467px;
+	padding:          4px 3px 0px 6px;
+}
+.center_column {
+	float:            left;
+	width:            330px;
+	height:           467px;
+	padding:          10px 3px 0px 3px;
+}
+.right_column {
+	float:            left;
+	width:            321px;
+	height:           467px;
+	padding:          10px 6px 0px 3px;
+}
+
 .left_column_blocks {
 	display:          block;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
-	width:            202px;
-	height:           248;
+	width:            213px;
+	height:           247;
 	float:            left;
-	margin:           0px 5px 2px 0px;
+	margin-top:       6px;
 }
 .left_column_blocks.bottom {
 	height:           191px;
@@ -236,7 +254,7 @@ body {
 	text-decoration: none;
 	color:           #e08d39;
 }
-.blocks_link.left_column{
+.blocks_link.left_columns{
 	color:           #ff3300;
 }
 .caption {
@@ -247,11 +265,11 @@ body {
 	display:          block;
 	border-radius:    15px 15px 0px 0px;
 	background-color: #f2cc87;    
-	width:            200px;
-	height:           124px;
+	width:            211px;
+	height:           123px;
 	font-size:        77%;	
 	position:         relative;
-	float:            left;
+	float:            left;  
 }
 .left_column_icon.pet_icon {
 	background:      url("../ico/sprite.png") no-repeat -289px -1px;
@@ -260,7 +278,7 @@ body {
 }
 .pet_of_the_month_img {
 	float:            left;	
-	margin:           10px 15px 0px 12px;
+	margin:           10px 2c1px 0px 12px;
 }
 
 .left_column_block.info_block {
@@ -284,7 +302,6 @@ body {
 	clear:            left;
 	margin:           0px 15px 0px 4px;
 }
-
 .left_column_block.issues_block {
 	height:           75px;
 }
@@ -300,7 +317,6 @@ body {
 	float:            left;
 	margin:           10px 10px 0px 5px;
 }
-
 .left_column_block.loren_block {
 	border-top:       solid #c1b3a3 1px;
     height:           50px;
@@ -310,7 +326,6 @@ body {
 	float:            left;
 	margin:           10px 5px 0px 5px;
 }
-
 .left_column_block.enim_block {
 	border-top:       solid #c1b3a3 1px;
     height:           65px;
@@ -326,34 +341,82 @@ body {
 	background-color: #ffedca;    
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
-	width:            320px;
-	height:           116px;
+	width:            324px;
+	height:           115px;
 	font-size:        77%;	
 	position:         relative;
-	float:            left;
-	margin:           0px 5px 5px 5px
-}
-.center_column_blocks_bottom {
-	display:          block;   
-	border:           solid #c1b3a3 1px;
-	border-radius:    15px;
-	width:            320px;
-	height:           300px;
-	float:            left;
-	clear:            none;
-	margin:           0px;
-	padding:          0px;
 }
 .center_column_caption  {
 	border-radius:    15px 15px 0px 0px;
 	background-color: #e08d39;
 	color:            white;
-	font-size:        11px;
+	font-size:        10px;
 	padding-left:     40px;
 }
 .center_img_family {
 	float:            left;
 	margin:           7px 10px 10px 5px;
+}
+
+.center_column_blocks.things_block {
+	display:          block;   
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px;
+	width:            324px;
+	height:           324px;
+	float:            left;
+	font-size:        100%;
+	margin-top:       5px;
+}
+.center_column_blocks.featured_block_royal {
+	border-width:     0px;
+	width:            322px;
+	height:           125px;
+}
+.center_column_img.royal {
+	position:         absolute;
+	left:             138px;
+	top:              -2px;
+}
+
+.center_column_blocks.botles_block{
+	border-width:     1px 0px 0px 0px;
+	width:            322px;
+	border-radius:    0px;
+	height:           82px;
+}
+.center_column_img.botles_img {
+	float:            left;
+	margin-right:     17px;
+}
+.center_column_img.star_img{
+	position:         absolute;
+	left:             -6px;
+	top:              -10px;
+}
+
+.center_column_blocks.staffs_block {
+	height:           51px;
+	border-radius:    0px;
+	width:            322px;
+	border-width:     1px 0px 0px 0px;
+}
+.center_column_staffs_img {
+	float:            left;
+	clear:            left;
+	margin:           0px 32px 0px 10px;
+}
+
+.center_column_blocks.brushes_block {
+	height:           64px;
+	border-radius:    0px 0px 15px 15px;
+	border-width:     1px 0px 0px 0px;
+	width:            322px;
+}
+.center_column_brshes_img {
+	float:            left;
+	clear:            left;
+	margin:           0px 30px 0px 10px;
 }
 
 .search {
@@ -364,7 +427,6 @@ body {
 	background-color: #ffedca; 
 	width:            312px;
 	float:            left;
-	margin:           0px 0px 5px 5px;
 	padding:          5px;
 	color:            #595959;
 }
@@ -396,17 +458,17 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
 	width:            312px;
-	height:           79px;
+	height:           78px;
 	font-size:        77%;	
 	position:         relative;
 	float:            left;
-	margin:           0px 0px 5px 5px;
+	margin-top:       5px;
 }
 .right_column_caption {
-	border-radius:    15px 15px 0px 0px;
+	border-radius:    13px 13px 0px 0px;
 	background-color: #e08d39;
 	color:            white;
-	font-size:        11px;
+	font-size:        10px;
 	padding-left:     20px;
 }
 .right_img_box {
@@ -415,32 +477,86 @@ body {
 	bottom:           10px;
 }
 
-
-.center_column_blocks.royal_block {
-	border-width:     0px;
-	margin:           0px;
-	width:            318px;
-	height:           125px;
-}
-.center_column_img.royal {
-	position:         absolute;
-	left:             138px;
-	top:              -2px;
-}
-.center_column_blocks.botles_block{
-	margin:           0px;
-	border-width:     1px 0px;
-	width:            318px;
-	border-radius:    0px;
-}
-.center_column_img.botles_img {
-	float:            left;
-}
-.center_column_img.star_img {
-	position:         absolute;
-}
-
 .right_column_blocks.clubs_block {
 	height:           126px;
-	margin-top:       3px;
+}
+.right_img_bigl {
+	float:            left;
+	clear:            left;
+	margin-right:     15px;  
+}
+
+.right_column_blocks.program_block {
+	height:           108px;
+	text-align:       right;
+}
+.right_column_caption.offer{
+	text-align:       left;
+}
+.right_column_img.basset_img {
+	float:            right;
+    clear:            left;
+	margin-left:      50px;
+}
+.right_column_img.offer_img {
+	position:         absolute;
+	left:             127px;
+	top:              44px;
+}
+.block_program_text {
+	display:          block;
+	font-size:        13px;
+	font-weight:      700;
+}
+
+.right_column_blocks.subescribe_block {
+	height:           80px;
+}
+.input_email {
+	margin-left:      31px;
+	margin-top:       23px;
+}
+
+.navigation_bottom {	    
+    float:            left;
+    list-style-type:  none;
+	border-radius:    15px 15px 0px 0px;
+	background:       linear-gradient( 
+                      #ffaf39 50%, 
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #ffc875;
+	width:            862px;
+	height:           20px;
+	margin-left:      6px;
+	padding-left:     222px;
+	padding-top:      3px;
+	font-size:        77%;
+}
+.nav_botom_btn {
+	display:          inline-block;
+	border:           solid 1px black;
+	border-width:     0px 1px 0px 0px;
+	width:            60px;
+	text-align:       center;
+}
+.navgation_bottom_link {
+	text-decoration:  none;
+	color:            #303030;
+}
+
+.footer {
+	position:         relative;
+	background-color: #4fa32a;
+	height:           50px;
+	width:            879px;
+	color:            #ffedca;
+	padding-top:      20px;
+	text-align:       center;
+	font-size:        70%;
+}
+.footer_img {
+	position:         absolute;
+	bottom:           36px;
+	right:            -12px;
 }
