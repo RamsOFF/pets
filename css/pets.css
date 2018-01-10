@@ -26,7 +26,6 @@ body {
 	margin:           0px auto;		
 	max-width:        1024px;
 	min-width:        992px;
-	height:           742px;
     -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
     -moz-box-shadow:  -1px 5px 38px -3px rgba(0,0,0,1);
     box-shadow:       -1px 5px 38px -3px rgba(0,0,0,1);
@@ -47,7 +46,6 @@ body {
 	background-size:  3px 3px;
     background-color: #f2cc87;
 	width:            172px;
-	height:           40px;
 	position:         absolute;
 	right:            10px;
 	font-size:        10px;
@@ -91,7 +89,6 @@ body {
 	border-bottom:    0px;
 	border-radius:    20px 20px 0px 0px;
 	width:            75%;
-	height:           60px;
 	background-color: #ffedca;
 	float:            right;
 	margin-right:     2px;
@@ -198,7 +195,6 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-bottom:    0px;
 	width:            99.6%;
-	height:           488px;
 	margin:           0px auto;
 	background-color: #ffecd8;
 	clear:            both;
@@ -206,19 +202,16 @@ body {
 .left_column {
 	float:            left;
 	width:            26%;
-	height:           467px;
 	padding:          4px 3px 0px 6px;
 }
 .center_column {
 	float:            left;
 	width:            37%;
-	height:           467px;
 	padding:          10px 3px 0px 3px;
 }
 .right_column {
 	float:            left;
 	width:            37%;
-	height:           467px;
 	padding:          10px 6px 0px 3px;
 }
 .blocks_link {
@@ -234,12 +227,10 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
 	width:            99%;
-	height:           247;
 	float:            left;
 	margin-top:       6px;
 }
 .left_column_blocks.bottom {
-	height:           191px;
 }
 .left_column_caption {
 	text-align:       right;
@@ -267,7 +258,6 @@ body {
 	border-radius:    15px 15px 0px 0px;
 	background-color: #f2cc87;    
 	width:            100%;
-	height:           124px;
 	font-size:        77%;	
 	position:         relative;
 	float:            left;  
@@ -305,7 +295,6 @@ body {
 }
 
 .left_column_block.issues_block {
-	height:           75px;
 }
 .left_column_caption.issues_caption {
 	text-align:       center;
@@ -313,24 +302,24 @@ body {
 .left_column_icon.isses_icon{
 	background:       url('../ico/sprite.png') no-repeat -372px -3px;
 	width:            26px;
-	height:           26px;
+
 }
 .issues_img.mouse {
 	float:            left;
 	margin:           10px 17px 0px 5px;
 }
+
 .left_column_block.loren_block {
 	border-top:       solid #c1b3a3 1px;
-    height:           50px;
 	border-radius:    0px;
 }
 .lorem_img {
 	float:            left;
 	margin:           10px 13px 0px 5px;
 }
+
 .left_column_block.enim_block {
 	border-top:       solid #c1b3a3 1px;
-    height:           65px;
 	border-radius:    0px 0px 15px 15px;
 }
 .enim_img {
@@ -344,7 +333,6 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
 	width:            99%;
-	height:           115px;
 	font-size:        77%;	
 	position:         relative;
 }
@@ -357,7 +345,7 @@ body {
 }
 .center_img_family {
 	float:            left;
-	margin:           7px 10px 10px 5px;
+	margin-right:     18px;
 }
 
 .center_column_blocks.things_block {
@@ -365,7 +353,6 @@ body {
 	width:            100%;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
-	height:           324px;
 	float:            left;
 	font-size:        100%;
 	margin-top:       5px;
@@ -374,7 +361,6 @@ body {
 	border-width:     0px;
 	width:            100%;
 	padding-bottom:   15px;
-	height:           125px;
 	text-align:       right;
 }
 .center_column_img.royal {
@@ -389,7 +375,6 @@ body {
 	border-width:     1px 0px 0px 0px;
 	border-radius:    0px;
 	width:            100%;
-	height:           82px;
 }
 .center_column_img.botles_img {
 	float:            left;
@@ -402,7 +387,6 @@ body {
 }
 
 .center_column_blocks.staffs_block {
-	height:           51px;
 	width:            100%;
 	border-radius:    0px;
 	border-width:     1px 0px 0px 0px;
@@ -414,7 +398,6 @@ body {
 }
 
 .center_column_blocks.brushes_block {
-	height:           64px;
 	width:            100%;
 	border-radius:    0px 0px 15px 15px;
 	border-width:     1px 0px 0px 0px;
@@ -429,7 +412,6 @@ body {
 	display:          block;
 	border:           solid 1px #c1b3a3;
 	border-radius:    12px;
-	height:           32px;
 	background-color: #ffedca; 
 	width:            100%;
 	float:            left;
@@ -464,9 +446,7 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
 	width:            100%;
-	height:           78px;
 	font-size:        77%;	
-	position:         relative;
 	float:            left;
 	margin-top:       5px;
 }
@@ -490,7 +470,6 @@ body {
 }
 
 .right_column_blocks.clubs_block {
-	height:           126px;
 }
 .right_img_bigl {
 	float:            left;
@@ -499,8 +478,8 @@ body {
 }
 
 .right_column_blocks.program_block {
-	height:           108px;
 	text-align:       right;
+	position:         relative;
 }
 .right_column_caption.offer{
 	text-align:       left;
@@ -522,11 +501,9 @@ body {
 }
 
 .right_column_blocks.subscribe_block {
-	height:           80px;
 }
 .input_email {
-	margin-left:      31px;
-	margin-top:       23px;
+	margin:           23px 0px 23px 31px;
 }
 
 .navigation_bottom {	    
@@ -539,7 +516,6 @@ body {
 	background-size:  3px 3px;
 	background-color: #ffc875;
 	width:            98%;
-	height:           20px;
 	margin-left:      6px;
 	padding-left:     222px;
 	padding-top:      3px;
@@ -561,14 +537,13 @@ body {
 }
 
 .footer {
-	position:         relative;
 	background-color: #4fa32a;
-	height:           50px;
 	width:            100%;
 	color:            #ffedca;
-	padding-top:      20px;
+	padding:          20px 0px;
 	text-align:       center;
 	font-size:        70%;
+	clear:            left;
 }
 .footer_img {
 	position:         absolute;
