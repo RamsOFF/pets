@@ -24,14 +24,15 @@ body {
 	background-repeat: no-repeat;
 	position:         relative;
 	margin:           0px auto;		
-	width:            888px;
+	max-width:        1024px;
+	min-width:        992px;
 	height:           742px;
     -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
     -moz-box-shadow:  -1px 5px 38px -3px rgba(0,0,0,1);
     box-shadow:       -1px 5px 38px -3px rgba(0,0,0,1);
+	background-size:  contain;
 }
 .header {
-	height:           203px;
 }
 .navigation_top {      
 	border-style:     solid;
@@ -68,7 +69,7 @@ body {
 
 }
 .nav_top_btn:last-child {
-	border: none;
+	border:           none;
 }
 .nav_top_link {
 	color:            black;
@@ -89,12 +90,12 @@ body {
 	border:           solid #c1b3a3 1px;
 	border-bottom:    0px;
 	border-radius:    20px 20px 0px 0px;
-	width:            676px;
+	width:            75%;
 	height:           60px;
 	background-color: #ffedca;
 	float:            right;
 	margin-right:     2px;
-	margin-top:       -34px;   
+	margin-top:       147px;   
     padding-left:     10px;	
 	
 }
@@ -110,7 +111,7 @@ body {
 	background-size:  3px 3px;
 	background-color: #ffba53;
 	margin:           4px 8px;
-	width:            112px;
+	width:            17.17%;
 	height:           50px;
 	text-align:       center;
 	color:            white;
@@ -196,7 +197,7 @@ body {
 .blocks {
 	border:           solid #c1b3a3 1px;
 	border-bottom:    0px;
-	width:            875px;
+	width:            99.6%;
 	height:           488px;
 	margin:           0px auto;
 	background-color: #ffecd8;
@@ -204,28 +205,35 @@ body {
 }
 .left_column {
 	float:            left;
-	width:            222px;
+	width:            26%;
 	height:           467px;
 	padding:          4px 3px 0px 6px;
 }
 .center_column {
 	float:            left;
-	width:            330px;
+	width:            37%;
 	height:           467px;
 	padding:          10px 3px 0px 3px;
 }
 .right_column {
 	float:            left;
-	width:            321px;
+	width:            37%;
 	height:           467px;
 	padding:          10px 6px 0px 3px;
+}
+.blocks_link {
+	text-decoration: none;
+	color:           #e08d39;
+}
+.caption {
+	margin-top:       5px;
 }
 
 .left_column_blocks {
 	display:          block;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
-	width:            213px;
+	width:            99%;
 	height:           247;
 	float:            left;
 	margin-top:       6px;
@@ -250,23 +258,16 @@ body {
 	left:            25px;
 	top:             -7px;
 }
-.blocks_link {
-	text-decoration: none;
-	color:           #e08d39;
-}
 .blocks_link.left_columns{
 	color:           #ff3300;
-}
-.caption {
-	margin-top:       5px;
 }
 
 .left_column_block {
 	display:          block;
 	border-radius:    15px 15px 0px 0px;
 	background-color: #f2cc87;    
-	width:            211px;
-	height:           123px;
+	width:            100%;
+	height:           124px;
 	font-size:        77%;	
 	position:         relative;
 	float:            left;  
@@ -278,7 +279,7 @@ body {
 }
 .pet_of_the_month_img {
 	float:            left;	
-	margin:           10px 2c1px 0px 12px;
+	margin:           10px 21px 0px 12px;
 }
 
 .left_column_block.info_block {
@@ -298,10 +299,11 @@ body {
 .information_img.labrador {
 	margin:           10px 15px 0px 20px;
 }
-.information_img.sobaken {
+.information_img.terrier {
 	clear:            left;
-	margin:           0px 15px 0px 4px;
+	margin:           0px 18px 0px 4px;
 }
+
 .left_column_block.issues_block {
 	height:           75px;
 }
@@ -315,7 +317,7 @@ body {
 }
 .issues_img.mouse {
 	float:            left;
-	margin:           10px 10px 0px 5px;
+	margin:           10px 17px 0px 5px;
 }
 .left_column_block.loren_block {
 	border-top:       solid #c1b3a3 1px;
@@ -324,7 +326,7 @@ body {
 }
 .lorem_img {
 	float:            left;
-	margin:           10px 5px 0px 5px;
+	margin:           10px 13px 0px 5px;
 }
 .left_column_block.enim_block {
 	border-top:       solid #c1b3a3 1px;
@@ -333,7 +335,7 @@ body {
 }
 .enim_img {
 	float:            left;
-	margin:           5px;
+	margin:           5px 9px 5px 5px;
 }
 
 .center_column_blocks {
@@ -341,7 +343,7 @@ body {
 	background-color: #ffedca;    
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
-	width:            324px;
+	width:            99%;
 	height:           115px;
 	font-size:        77%;	
 	position:         relative;
@@ -360,9 +362,9 @@ body {
 
 .center_column_blocks.things_block {
 	display:          block;   
+	width:            100%;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
-	width:            324px;
 	height:           324px;
 	float:            left;
 	font-size:        100%;
@@ -370,19 +372,23 @@ body {
 }
 .center_column_blocks.featured_block_royal {
 	border-width:     0px;
-	width:            322px;
+	width:            100%;
+	padding-bottom:   15px;
 	height:           125px;
+	text-align:       right;
 }
 .center_column_img.royal {
-	position:         absolute;
-	left:             138px;
-	top:              -2px;
+	float:            right;
+	margin-left:      22px;
+}
+.center_column_caption.product {
+	text-align:       left;
 }
 
 .center_column_blocks.botles_block{
 	border-width:     1px 0px 0px 0px;
-	width:            322px;
 	border-radius:    0px;
+	width:            100%;
 	height:           82px;
 }
 .center_column_img.botles_img {
@@ -397,8 +403,8 @@ body {
 
 .center_column_blocks.staffs_block {
 	height:           51px;
+	width:            100%;
 	border-radius:    0px;
-	width:            322px;
 	border-width:     1px 0px 0px 0px;
 }
 .center_column_staffs_img {
@@ -409,9 +415,9 @@ body {
 
 .center_column_blocks.brushes_block {
 	height:           64px;
+	width:            100%;
 	border-radius:    0px 0px 15px 15px;
 	border-width:     1px 0px 0px 0px;
-	width:            322px;
 }
 .center_column_brshes_img {
 	float:            left;
@@ -425,7 +431,7 @@ body {
 	border-radius:    12px;
 	height:           32px;
 	background-color: #ffedca; 
-	width:            312px;
+	width:            100%;
 	float:            left;
 	padding:          5px;
 	color:            #595959;
@@ -457,7 +463,7 @@ body {
 	background-color: #ffedca;    
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
-	width:            312px;
+	width:            100%;
 	height:           78px;
 	font-size:        77%;	
 	position:         relative;
@@ -471,10 +477,16 @@ body {
 	font-size:        10px;
 	padding-left:     20px;
 }
+
+.right_column_blocks.gift_ideas{
+	text-align:       right;
+}
+.right_column_caption.ideas {
+	text-align:       left;
+}
 .right_img_box {
-	position:         absolute;
-	right:            5px;
-	bottom:           10px;
+	float:            right;
+	margin:       -11px 0px 0px 26px;
 }
 
 .right_column_blocks.clubs_block {
@@ -509,7 +521,7 @@ body {
 	font-weight:      700;
 }
 
-.right_column_blocks.subescribe_block {
+.right_column_blocks.subscribe_block {
 	height:           80px;
 }
 .input_email {
@@ -526,19 +538,22 @@ body {
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffc875;
-	width:            862px;
+	width:            98%;
 	height:           20px;
 	margin-left:      6px;
 	padding-left:     222px;
 	padding-top:      3px;
 	font-size:        77%;
 }
-.nav_botom_btn {
+.nav_bottom_btn {
 	display:          inline-block;
 	border:           solid 1px black;
 	border-width:     0px 1px 0px 0px;
 	width:            60px;
 	text-align:       center;
+}
+.nav_bottom_btn:last-child {
+	border:           none;
 }
 .navgation_bottom_link {
 	text-decoration:  none;
@@ -549,7 +564,7 @@ body {
 	position:         relative;
 	background-color: #4fa32a;
 	height:           50px;
-	width:            879px;
+	width:            100%;
 	color:            #ffedca;
 	padding-top:      20px;
 	text-align:       center;
