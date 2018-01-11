@@ -10,20 +10,20 @@
     font-family:      "Roboto Regular";
 	src:              url(../fonts/3966.ttf),
 	                  url(../fonts/3966.woff);
-}	
+}
 body {
 	background-image: url(../images/fon.png);
 	font-family:      Tahoma;
 	font-size:        small;
 }
 .container {
-	border:           solid #f2cc87;  
-    border-width:     0px 5px;	
+	border:           solid #f2cc87;
+    border-width:     0px 5px;
 	background-image: url(../images/house.png);
 	background-color: white;
 	background-repeat: no-repeat;
 	position:         relative;
-	margin:           0px auto;		
+	margin:           0px auto;
 	max-width:        992px;
 	min-width:        768px;
     -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
@@ -33,15 +33,15 @@ body {
 }
 .header {
 }
-.navigation_top {      
+.navigation_top {
 	border-style:     solid;
 	border-width:     medium;
 	border-top:       none;
 	border-radius:    0px 0px 20px 20px;
 	border-color:     #af6900;
 	box-shadow:       10 10 10px rgba(0,0,0,5);
-	background:       linear-gradient( 
-                      #f4d69e 50%, 
+	background:       linear-gradient(
+                      #f4d69e 50%,
                       transparent 50%);
 	background-size:  3px 3px;
     background-color: #f2cc87;
@@ -92,9 +92,9 @@ body {
 	background-color: #ffedca;
 	float:            right;
 	margin-right:     2px;
-	margin-top:       147px;   
-    padding-left:     10px;	
-	
+	margin-top:       147px;
+    padding-left:     10px;
+
 }
 .navigation_btn {
 	position:         relative;
@@ -102,8 +102,8 @@ body {
     display:          inline-block;
 	border:           solid 3px #417233;
 	border-radius:    15px;
-	background:       linear-gradient( 
-                      #ff9900 50%, 
+	background:       linear-gradient(
+                      #ff9900 50%,
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
@@ -117,7 +117,7 @@ body {
     -webkit-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
     -moz-box-shadow:  inset -6px -6px 10px -4px rgba(0,0,0,0.58);
     box-shadow:       inset -6px -6px 10px -4px rgba(0,0,0,0.58);
-	
+
 }
 .navigation_btn:after {
 	content:          '';
@@ -136,7 +136,7 @@ body {
 }
 .navigation_link {
 	display:         block;
-	padding:         15px 65px 30px 42px;  
+	padding:         15px 65px 30px 42px;
     color:           white;
 }
 .navigation_link:hover {
@@ -154,7 +154,7 @@ body {
 	background:       url("../ico/sprite.png") no-repeat 0 0;
 	width:            35px;
 	height:           39px;
-	position:         absolute;	
+	position:         absolute;
 	bottom:           32px;
 	left:             40px;
 }
@@ -189,7 +189,7 @@ body {
 	position:         absolute;
 	left:             28px;
 	top:              -15px;
-}	
+}
 
 .blocks {
 	border:           solid #c1b3a3 1px;
@@ -234,8 +234,8 @@ body {
 }
 .left_column_caption {
 	text-align:       right;
-	background:       linear-gradient( 
-                      #49b149 50%, 
+	background:       linear-gradient(
+                      #49b149 50%,
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #63bc63;
@@ -256,11 +256,11 @@ body {
 .left_column_block {
 	display:          block;
 	border-radius:    15px 15px 0px 0px;
-	background-color: #f2cc87;    
+	background-color: #f2cc87;
 	width:            100%;
-	font-size:        77%;	
+	font-size:        77%;
 	position:         relative;
-	float:            left;  
+	float:            left;
 }
 .left_column_icon.pet_icon {
 	background:      url("../ico/sprite.png") no-repeat -289px -1px;
@@ -268,7 +268,7 @@ body {
 	height:          28px;
 }
 .pet_of_the_month_img {
-	float:            left;	
+	float:            left;
 	margin:           10px 21px 0px 12px;
 }
 
@@ -329,11 +329,11 @@ body {
 
 .center_column_blocks {
 	display:          block;
-	background-color: #ffedca;    
+	background-color: #ffedca;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
 	width:            99%;
-	font-size:        77%;	
+	font-size:        77%;
 	position:         relative;
 }
 .center_column_caption  {
@@ -349,7 +349,7 @@ body {
 }
 
 .center_column_blocks.things_block {
-	display:          block;   
+	display:          block;
 	width:            100%;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px;
@@ -412,7 +412,7 @@ body {
 	display:          block;
 	border:           solid 1px #c1b3a3;
 	border-radius:    12px;
-	background-color: #ffedca; 
+	background-color: #ffedca;
 	width:            100%;
 	float:            left;
 	padding:          5px;
@@ -428,8 +428,8 @@ body {
 .search_button {
 	border:           solid 2px #fdebc8;
 	border-radius:    9px;
-	background:       linear-gradient( 
-                      #ff9900 50%, 
+	background:       linear-gradient(
+                      #ff9900 50%,
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
@@ -442,11 +442,11 @@ body {
 
 .right_column_blocks {
 	display:          block;
-	background-color: #ffedca;    
+	background-color: #ffedca;
 	border:           solid #c1b3a3 1px;
 	border-radius:    15px 15px 15px 15px;
 	width:            100%;
-	font-size:        77%;	
+	font-size:        77%;
 	float:            left;
 	margin-top:       5px;
 }
@@ -474,7 +474,7 @@ body {
 .right_img_bigl {
 	float:            left;
 	clear:            left;
-	margin-right:     15px;  
+	margin-right:     15px;
 }
 
 .right_column_blocks.program_block {
@@ -506,12 +506,12 @@ body {
 	margin:           23px 0px 23px 31px;
 }
 
-.navigation_bottom {	    
-    float:            left;
+.navigation_bottom {
+  clear:both;
     list-style-type:  none;
 	border-radius:    15px 15px 0px 0px;
-	background:       linear-gradient( 
-                      #ffaf39 50%, 
+	background:       linear-gradient(
+                      #ffaf39 50%,
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffc875;
@@ -543,7 +543,7 @@ body {
 	padding:          20px 0px;
 	text-align:       center;
 	font-size:        70%;
-	clear:            left;
+	clear:            both;
 	position:         fixed;
 	bottom:           0px;
 }
