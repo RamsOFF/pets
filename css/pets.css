@@ -11,92 +11,544 @@
 	src:              url(../fonts/3966.ttf),
 	                  url(../fonts/3966.woff);
 }
-	
 body {
 	background-image: url(../images/fon.png);
 	font-family:      Tahoma;
 	font-size:        small;
 }
-.dog {
-	margin:           0px auto;		
-	width:            890px;
-	height:           550px;
-	background-color: #f2cc87;
-}
-.cat {
+.container {
+	border:           solid #f2cc87;
+    border-width:     0px 5px;
 	background-image: url(../images/house.png);
+	background-color: white;
 	background-repeat: no-repeat;
 	position:         relative;
 	margin:           0px auto;
-	width:            880px;
-	height:           550px;
-	background-color: white;
+	max-width:        992px;
+	min-width:        768px;
+    -webkit-box-shadow: -1px 5px 38px -3px rgba(0,0,0,1);
+    -moz-box-shadow:  -1px 5px 38px -3px rgba(0,0,0,1);
+    box-shadow:       -1px 5px 38px -3px rgba(0,0,0,1);
+	background-size:  contain;
 }
-
-.parrot {
+.header {
+}
+.navigation_top {
 	border-style:     solid;
 	border-width:     medium;
 	border-top:       none;
 	border-radius:    0px 0px 20px 20px;
 	border-color:     #af6900;
-	background:       linear-gradient( 
-                      #f4d69e 50%, 
+	box-shadow:       10 10 10px rgba(0,0,0,5);
+	background:       linear-gradient(
+                      #f4d69e 50%,
                       transparent 50%);
 	background-size:  3px 3px;
     background-color: #f2cc87;
-	width:            225px;
-	height:           40px;
+	width:            172px;
 	position:         absolute;
-	right:            20px;
+	right:            10px;
+	font-size:        10px;
+    -webkit-box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
+    box-shadow: inset -5px -5px 10px -4px rgba(0,0,0,0.58);
 }
-.parrot p {
-	padding:          10px 35px 10px 42px;
+.nav_top {
+	margin:           5px 0px 0px 12px;
 }
-
-
-.animal {
+.nav_top_btn {
 	display:          inline-block;
+	list-style-type:  none;
 	border-style:     solid;
-	border-width:     3px;
+	border-width:     0px 2px 0px 0px;
+	border-color:     #ba8d5b;
+	padding:          7px 10px 0px 10px;
+	height:           25px;
+
+}
+.nav_top_btn:last-child {
+	border:           none;
+}
+.nav_top_link {
+	color:            black;
+    text-decoration:  none;
+}
+.nav_top_link:hover {
+	color:            white;
+}
+
+.logo {
+	position:         relative;
+	left:             -20px;
+	top:              40px;
+}
+
+.navigation {
+    display:          block;
+	border:           solid #c1b3a3 1px;
+	border-bottom:    0px;
+	border-radius:    20px 20px 0px 0px;
+	width:            75%;
+	background-color: #ffedca;
+	float:            right;
+	margin-right:     2px;
+	margin-top:       147px;
+    padding-left:     10px;
+
+}
+.navigation_btn {
+	position:         relative;
+    list-style-type:  none;
+    display:          inline-block;
+	border:           solid 3px #417233;
 	border-radius:    15px;
-	border-color:     #417233;
-	background:       linear-gradient( 
-                      #ff9900 50%, 
+	background:       linear-gradient(
+                      #ff9900 50%,
                       transparent 50%);
 	background-size:  3px 3px;
 	background-color: #ffba53;
-    margin:           4px 8px;
-	padding:          12px;
-	width:            110px;
+	margin:           4px 8px;
+	width:            17.17%;
 	height:           50px;
 	text-align:       center;
 	color:            white;
+	font-family:      Roboto Regular;
 	font-size:        15px;
+    -webkit-box-shadow: inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    -moz-box-shadow:  inset -6px -6px 10px -4px rgba(0,0,0,0.58);
+    box-shadow:       inset -6px -6px 10px -4px rgba(0,0,0,0.58);
 
 }
-nav {
-	border-style:     solid;
-	border-width:     thin;
-	border-color:     #a3b39c;
-	border-radius:    20px 20px 0px 0px;
-	width:            650px;
-	height:           60px;
-    position:         absolute;
-	top:              140px;
-	right:            3px;
-	background-color: #ffedca;
-	}
-nav ul {
-
-}
-nav ul li {
-    list-style-type:  none;
-}
-#pets-suplies {
+.navigation_btn:after {
+	content:          '';
+	height:           8px;
 	position:         absolute;
-	top:              40px;
-	left:             -10px;
+	bottom:           -4px;
+	left:             20px;
+	right:            20px;
+	display:          block;
+	z-index:          2;
+	background-color: #4fa32a;
+	border-radius:    3px;
+    -webkit-box-shadow: 0px -1px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow:  0px -1px 10px 0px rgba(0,0,0,1);
+    box-shadow:       0px -1px 10px 0px rgba(0,0,0,1);
 }
-	
+.navigation_link {
+	display:         block;
+	padding:         15px 65px 30px 42px;
+    color:           white;
+}
+.navigation_link:hover {
+	color:           black;
+}
+.navigation_btn_text{
+	position:         absolute;
+}
+.navigation_btn_text.reptile {
+	position:         absolute;
+	left:             32px;
+	top:              14px;
+}
+.navigation_icon.dog {
+	background:       url("../ico/sprite.png") no-repeat 0 0;
+	width:            35px;
+	height:           39px;
+	position:         absolute;
+	bottom:           32px;
+	left:             40px;
+}
+.navigation_icon.cat {
+	background:       url('../ico/sprite.png') no-repeat -40px 0;
+	width:            25px;
+	height:           47px;
+	position:         absolute;
+	left:             40px;
+	bottom:           30px;
+}
+.navigation_icon.bird {
+	background:       url('../ico/sprite.png') no-repeat -145px 0;
+	width:            70px;
+	height:           55px;
+	position:         absolute;
+	left:             5px;
+	bottom:           28px;
+}
+.navigation_icon.fish {
+	background:       url('../ico/sprite.png') no-repeat -70px 0;
+	width:            69px;
+	height:           58px;
+	position:         absolute;
+	left:             22px;
+	bottom:           20px;
+}
+.navigation_icon.reptile {
+	background:       url('../ico/sprite.png') no-repeat -220px 0;
+	width:            59px;
+	height:           30px;
+	position:         absolute;
+	left:             28px;
+	top:              -15px;
+}
 
-	
+.blocks {
+	border:           solid #c1b3a3 1px;
+	border-bottom:    0px;
+	width:            99.6%;
+	margin:           0px auto;
+	background-color: #ffecd8;
+	clear:            both;
+}
+.left_column {
+	float:            left;
+	width:            26%;
+	padding:          4px 3px 0px 6px;
+}
+.center_column {
+	float:            left;
+	width:            37%;
+	padding:          10px 3px 0px 3px;
+}
+.right_column {
+	float:            left;
+	width:            37%;
+	padding:          10px 6px 0px 3px;
+}
+.blocks_link {
+	text-decoration: none;
+	color:           #e08d39;
+}
+.caption {
+	margin-top:       5px;
+}
+
+.left_column_blocks {
+	display:          block;
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px;
+	width:            99%;
+	float:            left;
+	margin-top:       6px;
+}
+.left_column_blocks.bottom {
+}
+.left_column_caption {
+	text-align:       right;
+	background:       linear-gradient(
+                      #49b149 50%,
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #63bc63;
+	border-radius:    15px 15px 0px 0px;
+	padding-right:    15px;
+	font-size:        11px;
+	color:            white;
+}
+.left_column_icon {
+	position:        absolute;
+	left:            25px;
+	top:             -7px;
+}
+.blocks_link.left_columns{
+	color:           #ff3300;
+}
+
+.left_column_block {
+	display:          block;
+	border-radius:    15px 15px 0px 0px;
+	background-color: #f2cc87;
+	width:            100%;
+	font-size:        77%;
+	position:         relative;
+	float:            left;
+}
+.left_column_icon.pet_icon {
+	background:      url("../ico/sprite.png") no-repeat -289px -1px;
+	width:           28px;
+	height:          28px;
+}
+.pet_of_the_month_img {
+	float:            left;
+	margin:           10px 21px 0px 12px;
+}
+
+.left_column_block.info_block {
+	border-radius:    0px 0px 15px 15px;
+}
+.left_column_caption.info_caption {
+	border-radius:    0px;
+}
+.left_column_icon.info_icon{
+	background:      url('../ico/sprite.png') no-repeat -330px -3px;
+	width:           26px;
+	height:          26px;
+}
+.information_img {
+	float:            left;
+}
+.information_img.labrador {
+	margin:           10px 15px 0px 20px;
+}
+.information_img.terrier {
+	clear:            left;
+	margin:           0px 18px 0px 4px;
+}
+
+.left_column_block.issues_block {
+}
+.left_column_caption.issues_caption {
+	text-align:       center;
+}
+.left_column_icon.isses_icon{
+	background:       url('../ico/sprite.png') no-repeat -372px -3px;
+	width:            26px;
+
+}
+.issues_img.mouse {
+	float:            left;
+	margin:           10px 17px 0px 5px;
+}
+
+.left_column_block.loren_block {
+	border-top:       solid #c1b3a3 1px;
+	border-radius:    0px;
+}
+.lorem_img {
+	float:            left;
+	margin:           10px 13px 0px 5px;
+}
+
+.left_column_block.enim_block {
+	border-top:       solid #c1b3a3 1px;
+	border-radius:    0px 0px 15px 15px;
+}
+.enim_img {
+	float:            left;
+	margin:           5px 9px 5px 5px;
+}
+
+.center_column_blocks {
+	display:          block;
+	background-color: #ffedca;
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px 15px 15px 15px;
+	width:            99%;
+	font-size:        77%;
+	position:         relative;
+}
+.center_column_caption  {
+	border-radius:    15px 15px 0px 0px;
+	background-color: #e08d39;
+	color:            white;
+	font-size:        10px;
+	padding-left:     40px;
+}
+.center_img_family {
+	float:            left;
+	margin-right:     18px;
+}
+
+.center_column_blocks.things_block {
+	display:          block;
+	width:            100%;
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px;
+	float:            left;
+	font-size:        100%;
+	margin-top:       5px;
+}
+.center_column_blocks.featured_block_royal {
+	border-width:     0px;
+	width:            100%;
+	padding-bottom:   15px;
+	text-align:       right;
+}
+.center_column_img.royal {
+	float:            right;
+	margin-left:      22px;
+}
+.center_column_caption.product {
+	text-align:       left;
+}
+
+.center_column_blocks.botles_block{
+	border-width:     1px 0px 0px 0px;
+	border-radius:    0px;
+	width:            100%;
+}
+.center_column_img.botles_img {
+	float:            left;
+	margin-right:     17px;
+}
+.center_column_img.star_img{
+	position:         absolute;
+	left:             -6px;
+	top:              -10px;
+}
+
+.center_column_blocks.staffs_block {
+	width:            100%;
+	border-radius:    0px;
+	border-width:     1px 0px 0px 0px;
+}
+.center_column_staffs_img {
+	float:            left;
+	clear:            left;
+	margin:           0px 32px 0px 10px;
+}
+
+.center_column_blocks.brushes_block {
+	width:            100%;
+	border-radius:    0px 0px 15px 15px;
+	border-width:     1px 0px 0px 0px;
+}
+.center_column_brshes_img {
+	float:            left;
+	clear:            left;
+	margin:           0px 30px 0px 10px;
+}
+
+.search {
+	display:          block;
+	border:           solid 1px #c1b3a3;
+	border-radius:    12px;
+	background-color: #ffedca;
+	width:            100%;
+	float:            left;
+	padding:          5px;
+	color:            #595959;
+}
+.search_text {
+	margin:           2px 15px 0px 15px;
+	float:            left;
+}
+.input {
+	border:           solid 1px #edbc8b;
+}
+.search_button {
+	border:           solid 2px #fdebc8;
+	border-radius:    9px;
+	background:       linear-gradient(
+                      #ff9900 50%,
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #ffba53;
+	width:            55px;
+	color:            #595959;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:  0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow:       0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.right_column_blocks {
+	display:          block;
+	background-color: #ffedca;
+	border:           solid #c1b3a3 1px;
+	border-radius:    15px 15px 15px 15px;
+	width:            100%;
+	font-size:        77%;
+	float:            left;
+	margin-top:       5px;
+}
+.right_column_caption {
+	border-radius:    13px 13px 0px 0px;
+	background-color: #e08d39;
+	color:            white;
+	font-size:        10px;
+	padding-left:     20px;
+}
+
+.right_column_blocks.gift_ideas{
+	text-align:       right;
+}
+.right_column_caption.ideas {
+	text-align:       left;
+}
+.right_img_box {
+	float:            right;
+	margin:       -11px 0px 0px 26px;
+}
+
+.right_column_blocks.clubs_block {
+}
+.right_img_bigl {
+	float:            left;
+	clear:            left;
+	margin-right:     15px;
+}
+
+.right_column_blocks.program_block {
+	text-align:       right;
+	position:         relative;
+}
+.right_column_caption.offer{
+	text-align:       left;
+}
+.right_column_img.basset_img {
+	float:            right;
+    clear:            left;
+	margin-left:      50px;
+}
+.right_column_img.offer_img {
+	position:         absolute;
+	left:             127px;
+	top:              44px;
+}
+.block_program_text {
+	display:          block;
+	font-size:        13px;
+	font-weight:      700;
+}
+
+.right_column_blocks.subscribe_block {
+}
+.input_email {
+	margin:           23px 0px 23px 31px;
+}
+
+.navigation_bottom {
+  clear:both;
+    list-style-type:  none;
+	border-radius:    15px 15px 0px 0px;
+	background:       linear-gradient(
+                      #ffaf39 50%,
+                      transparent 50%);
+	background-size:  3px 3px;
+	background-color: #ffc875;
+	width:            98%;
+	margin-left:      6px;
+	padding-left:     222px;
+	padding-top:      3px;
+	font-size:        77%;
+}
+.nav_bottom_btn {
+	display:          inline-block;
+	border:           solid 1px black;
+	border-width:     0px 1px 0px 0px;
+	width:            60px;
+	text-align:       center;
+}
+.nav_bottom_btn:last-child {
+	border:           none;
+}
+.navgation_bottom_link {
+	text-decoration:  none;
+	color:            #303030;
+}
+
+.footer {
+	background-color: #4fa32a;
+	width:            100%;
+	color:            #ffedca;
+	padding:          20px 0px;
+	text-align:       center;
+	font-size:        70%;
+	clear:            both;
+	position:         fixed;
+	bottom:           0px;
+}
+.footer_img {
+	position:         absolute;
+	bottom:           36px;
+	right:            -12px;
+}
